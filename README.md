@@ -20,7 +20,11 @@ npm i -g nodemon typescript ts-node
 ~~~
 npm install
 ~~~
-
+#### Criar um arquivo ".env" na pasta root com o seguinte comando: 
+   ~~~
+   PORT=4000
+   ~~~
+OBS: Pode ser em qualquer outra porta que você quiser. Ex: `PORT = 80`
 ## :abacus: Para rodar o projeto:
 ~~~
 npm run start-dev
