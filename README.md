@@ -1,6 +1,6 @@
 # nodets-canil
-    Projeto feito no módulo 2 do curso Node + Typescript
-    
+   Projeto feito no módulo 2 do curso Node + Typescript da [B7web](https://alunos.b7web.com.br/)
+   
 ## Tech Stack
 * NodeJS
   *  Express JS
@@ -10,17 +10,16 @@
 * HTML
 * CSS
   
-
-## Instalando dependencias
-Abra o terminal e insira os seguintes comandos:
+## Pré requisitos globais:
 ~~~
-npm install express mustache-express dotenv
+npm i -g nodemon typescript ts-node
 ~~~
+##Instalação 
 ~~~
-npm install --save-dev @types/express @types/mustache-express @types/node
-
+npm install
 ~~~
-sudo npm install -g nodemon typescript ts-node
 
 ## Para rodar o projeto 
-` npm run start-dev`
+~~~
+npm run start-dev
+~~~
