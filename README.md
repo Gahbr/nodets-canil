@@ -1,7 +1,8 @@
-# nodets-canil
-   Projeto feito no módulo 2 do curso Node + Typescript da [B7web](https://alunos.b7web.com.br/)
-   
-## Tech Stack
+# :bird: Petshop em NodeJS
+   Projeto feito no módulo 2 do curso Node + Typescript da [B7web](https://alunos.b7web.com.br/) <Br>
+   Acesse e teste esse projeto no link abaixo! <br/>
+   **Link:**  **[PetShop](https://infinite-crag-00685.herokuapp.com/)**
+## :computer: Tech Stack
 * NodeJS
   *  Express JS
   *  Mustache
@@ -9,17 +10,18 @@
 * TypeScript
 * HTML
 * CSS
+* Heroku
   
-## Pré requisitos globais:
+## :grinning: Pré requisitos globais:
 ~~~
 npm i -g nodemon typescript ts-node
 ~~~
-##Instalação 
+## :minidisc: Instalação:
 ~~~
 npm install
 ~~~
 
-## Para rodar o projeto 
+## :abacus: Para rodar o projeto:
 ~~~
 npm run start-dev
 ~~~
