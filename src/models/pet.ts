@@ -2,7 +2,7 @@
 //filtrar os pets por tipo
 //filtrar os pets por nome
 
-type PetType = 'dog' |'cat' | 'fish';
+type PetType = 'dog' |'cat' | 'fish' | 'bird';
 type PetSex = 'Masculino' | 'Feminino';
 
 type Pet = {
@@ -131,6 +131,42 @@ type Pet = {
         name: 'Acará Bandeira',
         color: 'Preto',
         sex: 'Masculino'
+    },
+
+    {
+        type: 'bird',
+        image: 'parakeet.jpg',
+        name: 'Periquito',
+        color: 'Azul',
+        sex: 'Masculino'
+    },
+    {
+        type: 'bird',
+        image: 'cockatoo.jpg',
+        name: 'Cacatua',
+        color: 'Albina',
+        sex: 'Masculino'
+    },
+    {
+        type: 'bird',
+        image: 'cockatiel.jpg',
+        name: 'Calopsita',
+        color: 'Cinza',
+        sex: 'Feminino'
+    },
+    {
+        type: 'bird',
+        image: 'african.jpg',
+        name: 'Papagaio cinzento',
+        color: 'Cinza',
+        sex: 'Masculino'
+    },
+    {
+        type: 'bird',
+        image: 'papagaio.jpg',
+        name: 'Papagaio',
+        color: 'Verde',
+        sex: 'Feminino'
     },
 ];
 

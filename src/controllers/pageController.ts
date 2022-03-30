@@ -48,3 +48,15 @@ export const fishes = (req:Request, res: Response)=>{
         }, list
     });
 } 
+
+export const birds = (req:Request, res: Response)=>{
+    let list = Pet.getFromType('bird');
+
+    res.render('pages/page', {
+        menu: createMenuObject('bird'),
+        banner:{
+            title:'Aves',
+            background:'banner_bird.jpg'
+        }, list
+    });
+}
